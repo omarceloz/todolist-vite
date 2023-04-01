@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body, input, button {
+body, input {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;

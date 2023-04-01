@@ -12,11 +12,20 @@
 }
 
 .card h3 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .card span {
     font-size: 14px;
     font-weight: 500;
+}
+
+.card button {
+    padding: 10px 10px 10px;
+    background: transparent;
+    font-size: 18px;
+    color: red;
+    border: none;
+    cursor: pointer;
 }

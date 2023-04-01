@@ -50,7 +50,7 @@ export function Home() {
         onChange={e => setTarefasName(e.target.value)}
       />
 
-      <button type="button" onClick={handleAddTarefas}>Criar</button>
+      <button type="button" className='button-add' onClick={handleAddTarefas}>Criar</button>
 
       {
         tarefas.map(tarefas => (
