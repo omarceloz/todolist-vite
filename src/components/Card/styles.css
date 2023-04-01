@@ -1,0 +1,22 @@
+.card {
+    height: 100px;
+    width: 50%;
+    background: #262626;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card span {
+    font-size: 14px;
+    font-weight: 500;
+}
