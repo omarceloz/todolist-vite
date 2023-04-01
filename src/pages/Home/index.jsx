@@ -19,6 +19,7 @@ export function Home() {
     };
 
     setTarefas(prevState => [...prevState, newTarefa]);
+    setTarefasName("")
   }
 
   useEffect(() => {
@@ -45,7 +46,8 @@ export function Home() {
       
 
       <input 
-        type="text" 
+        type="text"
+        value={tarefasName}
         placeholder="Digite uma tarefa..."
         onChange={e => setTarefasName(e.target.value)}
       />
