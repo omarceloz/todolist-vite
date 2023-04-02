@@ -7,7 +7,6 @@ export function Card({ name, time }){
                 <h3>TAREFA:</h3>
                 <span>{name || "Digite uma tarefa..."}</span>
             </strong>
-            <small>HORARIO: {time}</small>
         </div>
     )
 }
