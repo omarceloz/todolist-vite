@@ -6,8 +6,8 @@
     border-radius: 10px;
     margin-bottom: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 24px;
 }
 
@@ -19,13 +19,4 @@
 .card span {
     font-size: 14px;
     font-weight: 500;
-}
-
-.card button {
-    padding: 10px 10px 10px;
-    background: transparent;
-    font-size: 18px;
-    color: red;
-    border: none;
-    cursor: pointer;
 }
